@@ -6,6 +6,14 @@
         font-weight: bold !important;
     }
 
+    .MenuTopico:hover {
+        background-color: #ccc;
+    }
+    
+    .ativo {
+        background-color: #e1ebe3;
+    }
+
     #menuNumero {
         color: #b6a7d8;
         font-weight: bold !important;
@@ -18,8 +26,14 @@
         margin-top: -0.23rem;
     }
 
-    .ativo {
-        background-color: #e1ebe3;
+    .NomeCurso {
+        margin-top: 20px;
+        padding: 70px 0;
+        background-image: linear-gradient(to right, #F5E7CC , #7C8046 );
+        font-size: 1.2em;
+        padding: 10px;
+        color: #44833f;
+        font-weight: bold;
     }
 </style>
 
@@ -30,7 +44,8 @@
                 <!-- <a href="index.php">
                 <img class="img-fluid" src="https://atilasilvalima.a2hosted.com/projects/EGPCE/Cedis/cdn/imagens/egpce.png" alt="Logo EGPCE">
                 </a> -->
-                <img class="img-fluid img-responsive" src="https://www.egp.ce.gov.br/wp-content/uploads/sites/8/2021/06/logo-egpce-250x170-1.png" height="140" width="140" alt="Logo EGPCE">
+                <img class="img-fluid img-responsive" src="https://www.egp.ce.gov.br/wp-content/uploads/sites/8/2021/06/logo-egpce-250x170-1.png" height="130" width="70" alt="Logo EGPCE">
+                <h3 class="NomeCurso">Cartografia Básica e Introdução ao Geoprocessamento com QGIS</h3>
             </div>
             <div class="sidebar-menu">
 
@@ -75,8 +90,6 @@
 </div>
 <!-- SCRIPT - JS-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-<script src="js/script.js"></script>
 
 <script>
     $(document).ready(function() {
