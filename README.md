@@ -1,5 +1,5 @@
-# Curso Teste
-
+# Curso Testes
+DESCONSIDERAR ESTE CURSO
 Criação de um novo modelo para os cursos EAD.
 
 Menu
